@@ -1,0 +1,11 @@
+.Footer {
+  position: fixed;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media only screen and (max-width: 768px) {
+  .Footer {
+    position: relative;
+  }
+}
