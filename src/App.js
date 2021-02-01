@@ -11,30 +11,28 @@ import Wearelaika from "./Components/Wearelaika/Wearelaika";
 function App() {
   return (
     <div className="App">
-      <div className="container-fluid">
-        <Router>
-          <Switch>
-            <Route exact path="/">
-              <Homepage />
-            </Route>
-            <Route path="/category">
-              <CategoryPage />
-            </Route>
-            <Route path="/resumes">
-              <Resumes />
-            </Route>
-            <Route path="/cv">
-              <Cv />
-            </Route>
-            <Route path="/linkedin">
-              <Linkedin />
-            </Route>
-            <Route path="/wearelaika">
-              <Wearelaika />
-            </Route>
-          </Switch>
-        </Router>
-      </div>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Homepage />
+          </Route>
+          <Route path="/category">
+            <CategoryPage />
+          </Route>
+          <Route path="/resumes">
+            <Resumes />
+          </Route>
+          <Route path="/cv">
+            <Cv />
+          </Route>
+          <Route path="/linkedin">
+            <Linkedin />
+          </Route>
+          <Route path="/wearelaika">
+            <Wearelaika />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

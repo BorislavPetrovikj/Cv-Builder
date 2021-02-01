@@ -1,0 +1,38 @@
+.FooterBanner {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+.Laika {
+  width: 50%;
+  display: inline-block;
+  padding: 15px 20px 15px 10%;
+  color: #fff;
+}
+.brainster {
+  width: 50%;
+  display: inline-block;
+  padding: 15px 20px 15px 10%;
+  color: #fff;
+}
+.brainster {
+  background-color: #ede63e;
+}
+.Laika {
+  background-color: #7739ff;
+}
+.FooterBanner a {
+  float: right;
+  padding: 10px 45px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+}
+a {
+  text-decoration: none;
+}
+.FooterBanner p {
+  display: inline-block;
+  padding: 11px 0;
+  margin: 0;
+}
