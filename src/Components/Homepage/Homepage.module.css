@@ -11,7 +11,8 @@
   align-items: center;
   display: flex;
 }
-h1 {
+.h1 {
+  padding-bottom: 10px;
   font-weight: bold;
 }
 .bg {
@@ -21,8 +22,20 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.p-style {
+.pStyle {
   color: #aeb4b7;
   font-size: 13px;
   margin-bottom: 0 !important;
+  padding-bottom: 10px;
+}
+.button:hover {
+  color: #6533d0;
+  background-color: #f4f4f4;
+ 
+}
+.purpleBtn {
+  color: #fff;
+  background-color: #6530d7;
+  padding: 5px 20px;
+  border-radius: 5px;
 }

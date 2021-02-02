@@ -2,17 +2,19 @@ import React from "react";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
+import styles from "./CateogryCard.module.css";
+
 const CategoryCard = (props) => {
   return (
     <div className="CategoryCard">
       <Col className="pt-4">
-        <Card className="p-4" style={{ width: "18rem" }}>
-          <Card.Body className="p-4">
-            <Card.Title>{props.title}</Card.Title>
+        <Card className={styles.card} style={{ width: "18rem", height: "18rem" }}>
+          <Card.Body className="pt-5 ">
+            <Card.Title className="pt-4 font-weight-bold ">{props.title}</Card.Title>
           </Card.Body>
           <Link class="text-right  " to="/resumes">
             {" "}
-            <button type="button" class="btn btn-primary ">
+            <button className={`${styles.button} ${styles.purpleBtn}`}>
               Choose
             </button>
           </Link>{" "}

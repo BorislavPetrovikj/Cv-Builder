@@ -13,16 +13,16 @@ const CategoryPage = (props) => {
       <Container fluid>
         <Row className={styles.marginRow}>
           <Col md={3}>
-            <CategoryCard title={"Webdevelopment"} />
+            <CategoryCard title={"Web Development"} />
           </Col>
           <Col md={3}>
             <CategoryCard title={"Data Sience"} />
           </Col>
           <Col md={3}>
-            <CategoryCard title={"Design"} />
+            <CategoryCard title={"Digital Marketing"} />
           </Col>
           <Col md={3}>
-            <CategoryCard title={"Webdevelopment"} />
+            <CategoryCard title={"Design"} />
           </Col>
         </Row>
       </Container>

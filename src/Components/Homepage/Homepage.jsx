@@ -14,10 +14,10 @@ const Homepage = (props) => {
           <Row>
             <Col md={6} className={styles.flexcontainer}>
               <div className="child">
-                <h1>
+                <h1 className={styles.h1}>
                   The Ultimate <br></br>CV and Portfolio Check-List
                 </h1>
-                <p className="p-style mt-3">
+                <p className={styles.pStyle}>
                   Are you a Web Developer, Data Scientist, Digital Marketer or a
                   Designer?
                   <br></br>
@@ -28,7 +28,7 @@ const Homepage = (props) => {
                 </p>
                 <Link to="/category">
                   {" "}
-                  <button type="button" class="btn btn-primary mt-4">
+                  <button className={`${styles.button} ${styles.purpleBtn}`}>
                     Step Inside
                   </button>
                 </Link>
