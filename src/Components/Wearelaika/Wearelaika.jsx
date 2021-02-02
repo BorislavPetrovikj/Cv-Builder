@@ -7,35 +7,31 @@ import img3 from "../../Assets/Laika screenshots/laika3.png";
 import img4 from "../../Assets/Laika screenshots/Laika4.png";
 import img5 from "../../Assets/Laika screenshots/Laika5.png";
 import img6 from "../../Assets/Laika screenshots/Laika6.png";
-import { Col } from "react-bootstrap";
+import styles from "./Wearelaika.module.css";
 const Wearelaika = (props) => {
   return (
     <div className="Wearelaika bg">
-      <Col md={6}>
-        <Carousel>
-          <Carousel.Item>
-            <img className="d-block w-100" src={img1} alt="First slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={img2} alt="Third slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={img3} alt="Third slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={img4} alt="Third slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={img5} alt="Third slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={img6} alt="Third slide" />
-          </Carousel.Item>
-        </Carousel>
-      </Col>
-      <Col md={6}>
-        <p>dadad</p>
-      </Col>
+      <Carousel className={styles.carousel}>
+        <Carousel.Item>
+          <img className="d-block w-100" src={img1} alt="First slide" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={img2} alt="Third slide" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={img3} alt="Third slide" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={img4} alt="Third slide" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={img5} alt="Third slide" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={img6} alt="Third slide" />
+        </Carousel.Item>
+      </Carousel>
+
       <Banner />
     </div>
   );

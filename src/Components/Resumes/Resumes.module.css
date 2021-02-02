@@ -1,0 +1,31 @@
+.Navmenu {
+  margin-top: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+.bg {
+  background-image: url(/src/Assets/backgorunds/background.svg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.containerfluid {
+  width: 85% !important;
+}

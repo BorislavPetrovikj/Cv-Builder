@@ -9,37 +9,39 @@ import Col from "react-bootstrap/Col";
 const Homepage = (props) => {
   return (
     <div className={`${styles.Homepage} ${styles.bg}`}>
-      <Container>
-        <Row>
-          <Col md={6} className={styles.flexcontainer}>
-            <div className="child">
-              <h1>
-                The Ultimate <br></br>CV and Portfolio Check-List
-              </h1>
-              <p className="p-style mt-3">
-                Are you a Web Developer, Data Scientist, Digital Marketer or a
-                Designer?
-                <br></br>
-                Have your CV and portfolio in scheck and create a 5-star
-                representation
-                <br></br>
-                of your skills with this guide.
-              </p>
-              <Link to="/category">
-                {" "}
-                <button type="button" class="btn btn-primary mt-4">
-                  Step Inside
-                </button>
-              </Link>
-            </div>
-          </Col>
-          <Col md={6} className={styles.homepageImage}></Col>
-        </Row>
-        <Row>
-          <Col md={6}>
-            <Footer />
-          </Col>
-        </Row>
+      <Container fluid>
+        <Container>
+          <Row>
+            <Col md={6} className={styles.flexcontainer}>
+              <div className="child">
+                <h1>
+                  The Ultimate <br></br>CV and Portfolio Check-List
+                </h1>
+                <p className="p-style mt-3">
+                  Are you a Web Developer, Data Scientist, Digital Marketer or a
+                  Designer?
+                  <br></br>
+                  Have your CV and portfolio in scheck and create a 5-star
+                  representation
+                  <br></br>
+                  of your skills with this guide.
+                </p>
+                <Link to="/category">
+                  {" "}
+                  <button type="button" class="btn btn-primary mt-4">
+                    Step Inside
+                  </button>
+                </Link>
+              </div>
+            </Col>
+            <Col md={6} className={styles.homepageImage}></Col>
+          </Row>
+          <Row>
+            <Col md={6}>
+              <Footer />
+            </Col>
+          </Row>
+        </Container>
       </Container>
     </div>
   );
