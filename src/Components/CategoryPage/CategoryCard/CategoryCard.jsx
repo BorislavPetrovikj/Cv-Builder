@@ -8,7 +8,7 @@ const CategoryCard = (props) => {
   return (
     <div className="CategoryCard">
       <Col className="pt-4">
-        <Card className={styles.card} style={{ width: "21rem", height: "18rem" }}>
+        <Card className={styles.card} style={{ width: "20rem", height: "18rem" }}>
           <Card.Body className="pt-5 ">
             <Card.Title className="pt-4 font-weight-bold ">{props.title}</Card.Title>
           </Card.Body>
