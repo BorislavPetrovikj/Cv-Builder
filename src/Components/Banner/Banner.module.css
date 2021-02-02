@@ -6,13 +6,13 @@
 .Laika {
   width: 50%;
   display: inline-block;
-  padding: 15px 20px 15px 10px;
+  padding: 15px 20px 7px 10px;
   color: #fff;
 }
 .brainster {
   width: 50%;
   display: inline-block;
-  padding: 15px 20px 15px 10px;
+  padding: 15px 20px 7px 10px;
   color: #fff;
 }
 .brainster {
@@ -23,7 +23,7 @@
 }
 .FooterBanner a {
   float: right;
-  padding: 10px 45px;
+  padding: 8px 40px;
   background-color: #000;
   color: #fff;
   border-radius: 4px;
