@@ -1,14 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
-import "./Homepage.css";
+import styles from "./Homepage.module.css";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const Homepage = (props) => {
   return (
-    <div className="Homepage bg">
-      <div className="container ">
-        <div className="row">
-          <div className="col-md-6 text-left flex-container ">
+    <div className={styles.Homepage}>
+      <Container>
+        <Row>
+          <Col md={6} className={styles.flexcontainer}>
             <div className="child">
               <h1>
                 The Ultimate <br></br>CV and Portfolio Check-List
@@ -29,15 +32,15 @@ const Homepage = (props) => {
                 </button>
               </Link>
             </div>
-          </div>
-          <div className="col-md-6 homepage-Image "></div>
-        </div>
-        <div className="row">
-          <div className="col-md-6">
+          </Col>
+          <Col md={6} className={styles.homepageImage}></Col>
+        </Row>
+        <Row>
+          <Col md={6}>
             <Footer />
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };

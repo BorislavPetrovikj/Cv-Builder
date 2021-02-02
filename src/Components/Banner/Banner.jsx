@@ -1,10 +1,10 @@
 import React from "react";
-import "./Banner.css";
+import styles from "./Banner.module.css";
 
 const Banner = (props) => {
   return (
-    <div className="FooterBanner">
-      <div className="brainster">
+    <div className={styles.FooterBanner}>
+      <div className={styles.brainster}>
         <p>Do you want to learn hands-on digital skills? </p>
         <a
           target="_blank"
@@ -14,7 +14,7 @@ const Banner = (props) => {
           VISIT BRAINSTER
         </a>
       </div>
-      <div className="Laika">
+      <div className={styles.Laika}>
         <p>Do you want to learn hands-on digital skills? </p>
         <a
           target="_blank"

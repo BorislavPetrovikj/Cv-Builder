@@ -1,5 +1,11 @@
-.App {
-  text-align: center;
+.CategoryPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.marginRow {
+  margin-right: 50px !important;
+  margin-left: 50px !important;
 }
 .bg {
   background-image: url(/src/Assets/backgorunds/background.svg);

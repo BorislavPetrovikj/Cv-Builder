@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import "./Resumes.css";
+// import styles from "./Resumes.module.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Cv from "../CV/Cv";
 import Linkedin from "../Linkedin/Linkedin";
@@ -48,7 +47,6 @@ export default function Resumes() {
             </button>
           </Link>
         </div>
-
         <div>
           <Switch>
             {routes.map((route, index) => (

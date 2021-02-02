@@ -1,31 +1,29 @@
 import React from "react";
 import Banner from "../Banner/Banner";
 import CategoryCard from "./CategoryCard/CategoryCard";
-import "./CategoryPage.css";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import "bootstrap/dist/css/bootstrap.min.css";
+import styles from "./CategoryPage.module.css";
 
 const CategoryPage = (props) => {
   return (
-    <div className="CategoryPage bg">
-      <div className="row marginRow">
-        <div className="col-12 text-left p-4">
-          <h1>Choose your Category</h1>
-        </div>
-        <div class="col-md-3  pt-2">
+    <div className={`${styles.CategoryPage} ${styles.bg}`}>
+      <Row className={styles.marginRow}>
+        <Col md={3}>
           <CategoryCard title={"Webdevelopment"} />
-        </div>
-        <div class="col-md-3 pt-2">
-          {" "}
-          <CategoryCard title={"Data sience"} />
-        </div>
-        <div class="col-md-3 pt-2">
-          {" "}
-          <CategoryCard title={"Digital Marketinv"} />
-        </div>
-        <div class="col-md-3  pt-2">
-          {" "}
+        </Col>
+        <Col md={3}>
+          <CategoryCard title={"Data Sience"} />
+        </Col>
+        <Col md={3}>
           <CategoryCard title={"Design"} />
-        </div>
-      </div>
+        </Col>
+        <Col md={3}>
+          <CategoryCard title={"Webdevelopment"} />
+        </Col>
+      </Row>
+
       <Banner />
     </div>
   );

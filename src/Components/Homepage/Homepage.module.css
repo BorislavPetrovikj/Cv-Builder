@@ -1,20 +1,17 @@
-.homepage-Image {
+.Homepage {
+  text-align: left;
+}
+.homepageImage {
   background-image: url(/src/Assets/backgorunds/BackgroundFirstPage.png);
   height: 80vh;
   background-position: 50%;
   background-repeat: no-repeat;
 }
-.flex-container {
+.flexcontainer {
   align-items: center;
   display: flex;
 }
-.bg {
-  background-image: url(/src/Assets/backgorunds/background.svg);
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 h1 {
   font-weight: bold;
 }
@@ -22,6 +19,5 @@ h1 {
 .p-style {
   color: #aeb4b7;
   font-size: 13px;
-  margin-bottom: 0!important;
+  margin-bottom: 0 !important;
 }
-
