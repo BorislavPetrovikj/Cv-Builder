@@ -5,13 +5,17 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./CategoryPage.module.css";
+import { Container } from "react-bootstrap";
 
 
 const CategoryPage = (props) => {
   return (
     <div className={`${styles.CategoryPage} ${styles.bg}`}>
-    
-        <Row >
+   
+     
+        
+     
+    <Row >
           <Col md={3}>
             <CategoryCard title={"Web Development"} />
           </Col>
