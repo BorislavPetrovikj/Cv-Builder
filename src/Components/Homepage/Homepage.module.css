@@ -11,11 +11,16 @@
   align-items: center;
   display: flex;
 }
-
 h1 {
   font-weight: bold;
 }
-
+.bg {
+  background-image: url(/src/Assets/backgorunds/background.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .p-style {
   color: #aeb4b7;
   font-size: 13px;

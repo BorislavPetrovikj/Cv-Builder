@@ -8,7 +8,7 @@ import Col from "react-bootstrap/Col";
 
 const Homepage = (props) => {
   return (
-    <div className={styles.Homepage}>
+    <div className={`${styles.Homepage} ${styles.bg}`}>
       <Container>
         <Row>
           <Col md={6} className={styles.flexcontainer}>
