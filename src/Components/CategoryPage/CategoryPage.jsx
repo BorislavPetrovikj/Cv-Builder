@@ -10,8 +10,8 @@ import { Container } from "react-bootstrap";
 const CategoryPage = (props) => {
   return (
     <div className={`${styles.CategoryPage} ${styles.bg}`}>
-      <Container fluid>
-        <Row className={styles.marginRow}>
+    
+        <Row >
           <Col md={3}>
             <CategoryCard title={"Web Development"} />
           </Col>
@@ -25,7 +25,7 @@ const CategoryPage = (props) => {
             <CategoryCard title={"Design"} />
           </Col>
         </Row>
-      </Container>
+   
 
       <Banner />
     </div>

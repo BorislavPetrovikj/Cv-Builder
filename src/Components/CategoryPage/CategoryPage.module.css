@@ -3,10 +3,7 @@
   align-items: center;
   justify-content: center;
 }
-.marginRow {
 
-  margin-left: 50px !important;
-}
 .bg {
   background-image: url(/src/Assets/backgorunds/background.svg);
   height: 100vh;
