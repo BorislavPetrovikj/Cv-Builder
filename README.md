@@ -1,5 +1,5 @@
 A Website where you can build your cv and get instrutions on adjusting your linkedin and laika profile 
-Use it <a href="https://loving-wozniak-d76dee.netlify.app/>Here!</a>
+Use it <a href="https://loving-wozniak-d76dee.netlify.app"/>Here!</a>
 
 # Getting Started with Create React App
 
