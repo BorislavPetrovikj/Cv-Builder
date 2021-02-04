@@ -30,25 +30,25 @@ export default function Resumes() {
       <div className={styles.bg}>
         <Container fluid className={styles.containerfluid}>
           <Row>
-            <Col>
+            <Col md={8}>
               <div className={styles.Navmenu}>
                 <Link to="/CV">
                   {" "}
-                  <button type="button" class="btn btn-primary mt-4">
+                  <button type="button" class={styles.button}>
                     CV
                   </button>
                 </Link>
 
                 <Link to="/Linkedin">
                   {" "}
-                  <button type="button" class="btn btn-primary mt-4">
+                  <button type="button" class={styles.button}>
                     Linkedin
                   </button>
                 </Link>
 
                 <Link to="/Wearelaika">
                   {" "}
-                  <button type="button" class="btn btn-primary mt-4">
+                  <button type="button" class={styles.button}>
                     Wearelaika
                   </button>
                 </Link>
@@ -64,6 +64,14 @@ export default function Resumes() {
                     />
                   ))}
                 </Switch>
+              </div>
+            </Col>
+            <Col md={4}>
+              <div className={styles.tips}>
+                <p>
+                  Move your mouse over different parts of the image to get
+                  instructions about that specific section
+                </p>
               </div>
             </Col>
           </Row>

@@ -15,7 +15,7 @@ const Banner = (props) => {
         </a>
       </div>
       <div className={styles.Laika}>
-        <p>Do you want to learn hands-on digital skills? </p>
+        <p>Do you want to job offers by IT companies? </p>
         <a
           target="_blank"
           rel="noopener noreferrer"

@@ -13,22 +13,22 @@ const Wearelaika = (props) => {
     <div className="Wearelaika bg">
       <Carousel className={styles.carousel}>
         <Carousel.Item>
-          <img className="d-block w-100" src={img1} alt="First slide" />
+          <img className="d-block w-60" src={img1} alt="First slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={img2} alt="Third slide" />
+          <img className="d-block w-60" src={img2} alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={img3} alt="Third slide" />
+          <img className="d-block w-60" src={img3} alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={img4} alt="Third slide" />
+          <img className="d-block w-60" src={img4} alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={img5} alt="Third slide" />
+          <img className="d-block w-60" src={img5} alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={img6} alt="Third slide" />
+          <img className="d-block w-60" src={img6} alt="Third slide" />
         </Carousel.Item>
       </Carousel>
 
