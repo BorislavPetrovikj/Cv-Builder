@@ -1,3 +1,12 @@
 .carousel {
-  width: 50%;
+  width: 70%;
+}
+
+.carousel-control-next-icon:after {
+  content: "\01F846";
+}
+.carousel-control-next-icon:after,
+.carousel-control-prev-icon:after {
+  font-size: 50px;
+  color: #6533d0;
 }

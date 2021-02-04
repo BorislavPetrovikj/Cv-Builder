@@ -11,10 +11,10 @@ const Linkedin = (props) => {
   return (
     <div className="Linkedin">
       <Carousel className={styles.carousel}>
-        <Carousel.Item>
+        <Carousel.Item >
           <img className="d-block w-100" src={img1} alt="First slide" />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item >
           <img className="d-block w-100" src={img2} alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
