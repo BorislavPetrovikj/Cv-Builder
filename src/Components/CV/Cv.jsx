@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import WebDevelopment from "./CategoryCv/WebDevelopment";
 import styles from "./Cv.module.css";
 
 class Cv extends Component {
@@ -20,7 +21,9 @@ class Cv extends Component {
         {this.state.isEditMode ? (
           <div>inputi shto ke ti ovozmozat editiranje tuka</div>
         ) : (
-          <div>divovi kaj shto ke go prikazes tekstot od cv-to</div>
+          <div>
+            <WebDevelopment />
+          </div>
         )}
       </div>
     );
