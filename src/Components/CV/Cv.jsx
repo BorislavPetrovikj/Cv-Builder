@@ -19,7 +19,7 @@ class Cv extends Component {
       <div className={styles.cv}>
         <button onClick={this.handleClick}>click me</button>
         {this.state.isEditMode ? (
-          <div>inputi shto ke ti ovozmozat editiranje tuka</div>
+          <div>inputi for editing</div>
         ) : (
           <div>
             <WebDevelopment />
